@@ -1,0 +1,32 @@
+uuid: b797595c-5e54-4292-9ccf-16a5c553f0c7
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.movie_review.body
+    - field.field.node.movie_review.field_movie_name
+    - node.type.movie_review
+  module:
+    - text
+    - user
+id: node.movie_review.teaser
+targetEntityType: node
+bundle: movie_review
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_movie_name: true

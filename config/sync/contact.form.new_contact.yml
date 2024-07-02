@@ -1,0 +1,12 @@
+uuid: 184cc020-8172-4168-bd7b-5c3eb8e53a32
+langcode: en
+status: true
+dependencies: {  }
+id: new_contact
+label: 'Contact Us'
+recipients:
+  - sayan.myplatform@gmail.com
+reply: ''
+weight: 0
+message: ''
+redirect: /about

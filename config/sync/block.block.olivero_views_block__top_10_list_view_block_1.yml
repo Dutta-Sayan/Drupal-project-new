@@ -1,0 +1,33 @@
+uuid: 1410228c-11ba-4406-9382-cc00384adeac
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.top_10_list_view
+  module:
+    - node
+    - views
+  theme:
+    - olivero
+id: olivero_views_block__top_10_list_view_block_1
+theme: olivero
+region: content_below
+weight: 0
+provider: null
+plugin: 'views_block:top_10_list_view-block_1'
+settings:
+  id: 'views_block:top_10_list_view-block_1'
+  label: ''
+  label_display: '0'
+  provider: views
+  context_mapping: {  }
+  views_label: ''
+  items_per_page: '10'
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      top_10_lists: top_10_lists

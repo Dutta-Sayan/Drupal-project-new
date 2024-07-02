@@ -1,0 +1,30 @@
+uuid: 64290e10-444e-4a6b-b35d-bb7d4558a2ce
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.top_10_lists.body
+    - field.field.node.top_10_lists.field_add_movies_to_list
+    - node.type.top_10_lists
+  module:
+    - text
+    - user
+id: node.top_10_lists.default
+targetEntityType: node
+bundle: top_10_lists
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_add_movies_to_list: true

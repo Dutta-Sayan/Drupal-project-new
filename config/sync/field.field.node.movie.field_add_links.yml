@@ -1,0 +1,23 @@
+uuid: 955f74a2-363e-40f3-bcc1-2eb81816809e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_add_links
+    - node.type.movie
+  module:
+    - link
+id: node.movie.field_add_links
+field_name: field_add_links
+entity_type: node
+bundle: movie
+label: 'External Links'
+description: 'Add external links'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 16
+field_type: link

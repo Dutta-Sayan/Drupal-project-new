@@ -1,0 +1,19 @@
+uuid: 90b7cadb-772c-4de3-80bc-a1acc76c2c62
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.news_page
+  module:
+    - user
+id: node.news_page.default
+targetEntityType: node
+bundle: news_page
+mode: default
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

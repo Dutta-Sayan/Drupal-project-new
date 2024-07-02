@@ -1,0 +1,9 @@
+uuid: 6bb5e481-c3cd-4401-b718-93472be51eb0
+langcode: en
+status: true
+dependencies: {  }
+id: news_manager
+label: 'News Manager'
+weight: 5
+is_admin: null
+permissions: {  }

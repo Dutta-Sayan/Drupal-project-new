@@ -1,0 +1,14 @@
+uuid: 0bd78189-638a-4617-aa7b-ffe61d052eb3
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: url_aliases_for_created_nodes
+label: 'Url aliases for created nodes'
+type: 'canonical_entities:node'
+pattern: '[node:title]'
+selection_criteria: {  }
+selection_logic: and
+weight: 0
+relationships: {  }

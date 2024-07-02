@@ -1,0 +1,18 @@
+uuid: de1ac785-934b-45b1-bc50-ee6486eab2ff
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.top_10_lists
+id: node.top_10_lists.title
+field_name: title
+entity_type: node
+bundle: top_10_lists
+label: 'Name of new list'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

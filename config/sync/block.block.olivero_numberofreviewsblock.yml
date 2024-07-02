@@ -1,0 +1,30 @@
+uuid: d0d746d0-b961-471f-a1f0-c1d3f418aa4c
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:d3d06d73-002a-448d-bdcf-8a406f6beb1b'
+  module:
+    - block_content
+    - system
+  theme:
+    - olivero
+id: olivero_numberofreviewsblock
+theme: olivero
+region: content_above
+weight: -8
+provider: null
+plugin: 'block_content:d3d06d73-002a-448d-bdcf-8a406f6beb1b'
+settings:
+  id: 'block_content:d3d06d73-002a-448d-bdcf-8a406f6beb1b'
+  label: 'Number of Reviews block'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /reviews

@@ -1,0 +1,19 @@
+uuid: adaf6e19-433d-40c1-bc0e-2306ed8cb3cc
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_add_movies_to_list
+field_name: field_add_movies_to_list
+entity_type: node
+type: entity_reference
+settings:
+  target_type: node
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

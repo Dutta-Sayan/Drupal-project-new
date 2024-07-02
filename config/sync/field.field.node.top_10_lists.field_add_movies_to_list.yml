@@ -1,0 +1,29 @@
+uuid: fe6f59ed-a22b-446d-898d-8716c52731eb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_add_movies_to_list
+    - node.type.movie
+    - node.type.top_10_lists
+id: node.top_10_lists.field_add_movies_to_list
+field_name: field_add_movies_to_list
+entity_type: node
+bundle: top_10_lists
+label: 'Add movies to list'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      movie: movie
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
